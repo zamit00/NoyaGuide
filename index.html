@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>מדריך מערכת נויה</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="hero">
+      <div class="container hero-shell">
+        <div class="hero-top">
+          <div class="brand-lockup">
+            <div class="brand-text">
+              <h1>מדריך מערכת נויה</h1>
+            </div>
+          </div>
+        </div>
+        <div class="topic-tabs" role="tablist" aria-label="נושאים מרכזיים">
+          <button class="topic-tab is-active" type="button" data-target="dashboard" aria-pressed="true">לוח בקרה</button>
+          <button class="topic-tab" type="button" data-target="new-employer" aria-pressed="false">הוספת מעסיק</button>
+          <button class="topic-tab" type="button" data-target="new-employee" aria-pressed="false">הוספת עובד</button>
+          <button class="topic-tab" type="button" data-target="portal" aria-pressed="false">פורטל מעסיקים</button>
+          <button class="topic-tab" type="button" data-target="agent-reports" aria-pressed="false">דוחות לסוכן</button>
+        </div>
+      </div>
+    </header>
+    <main class="container">
+      <section class="card section topic-section" id="dashboard">
+        <details class="topic-details">
+          <summary class="topic-strip">
+            <h2 class="topic-strip__title">לוח בקרה ניהולי</h2>
+            <span class="topic-strip__chevron" aria-hidden="true"></span>
+          </summary>
+          <div class="topic-strip__body">
+            <p>מופיע כמסך הכניסה למערכת. זהו לוח בקרה מתקדם המציג תמונת מצב מצרפית בצורה כמותית. לוח הבקרה מאפשר לראות נתונים קריטיים במבט חטוף ולבצע פעולות תפעוליות ישירות מתוך הממשק, ללא צורך במעבר בין מסכים מורכבים.</p>
+            <p>כל כרטיס שנבחר בלוח יפתח דוח מתחת ללוח הבקרה עם פירוט הנתונים שמוצגים בכרטיס. דרך פירוט הנתונים ניתן לראות, לערוך ולטפל בנושאים תפעוליים שונים כמו השלמת פרטים לחסרי פרטים, חידוש פוליסות, טיפול בהצהרות בריאות (יוסבר בהמשך) ועוד.</p>
+            <div class="gallery">
+              <figure class="shot"><img loading="lazy" decoding="async" src="image-01.png" alt="לוח בקרה"><figcaption>לוח בקרה ניהולי</figcaption></figure>
+            </div>
+          </div>
+        </details>
+      </section>
+
+      <section class="card section topic-section" id="new-employer">
+        <details class="topic-details">
+          <summary class="topic-strip">
+            <h2 class="topic-strip__title">הוספת מעסיק חדש</h2>
+            <span class="topic-strip__chevron" aria-hidden="true"></span>
+          </summary>
+          <div class="topic-strip__body">
+        <p>בתפריט מעסיקים נלחץ על הוספת מעסיק.</p>
+        <p>יפתח החלון:</p>
+        <figure class="shot"><img loading="lazy" decoding="async" src="image-02.png" alt="דוח מתחת ללוח"><figcaption style="color:rgb(6, 6, 85); font-weight: bold;">חשוב למלא את כל השדות החובה בפרטי המעסיק</figcaption></figure>
+        <p>לאחר מילוי פרטי המעסיק נדרש ללחוץ על כפתור "שמור" כדי לנהל את הפוליסה תחת כרטיסיה "ניהול פוליסה למעסיק".</p>
+        <p style="margin-top: 1.5rem;">לאחר שמירת המעסיק יפתח חלון להוספת פוליסה למעסיק.
+        נדרש למלא את כל שדות החובה. ביחס לארץ המוצא וקופת חולים – אלה יהיו נתוני ברירת המחדל של כל  עובד וגם נתוני השפה המתאימה להצהרת הבריאות.</p>
+        <figure class="shot"><img loading="lazy" decoding="async" src="image-03.png" alt="מסך המשך"><figcaption style="color:rgb(6, 6, 85); font-weight: bold;">חשוב למלא שדות חיוניים: חברת הביטוח, מספר פוליסה, קופת חולים, ענף ועוד</figcaption></figure>
+        <p style="margin-top: 1.5rem;">ניתן להוסיף עובדים חדשים למעסיק דרך כרטיס המעסיק באמצעות כפתור "הוסף עובד חדש למעסיק זה".</p>
+        <figure class="shot5" ><img loading="lazy" decoding="async" src="image-05.png" alt="איזור הוספת עובד">
+        </p>נבחר בתפריט מעסיקים ונוודא כי המעסיק הצטרף לרשימת המעסיקים הקיימת.</p>
+        <figure class="shot"><img loading="lazy" decoding="async" src="image-06.png" alt="פרטי מעסיק"><figcaption>מילוי פרטי מעסיק</figcaption></figure>
+        </div>
+        </details>
+      </section>
+
+      <section class="card section topic-section" id="new-employee">
+        <details class="topic-details">
+          <summary class="topic-strip">
+            <h2 class="topic-strip__title">הוספת עובד</h2>
+            <span class="topic-strip__chevron" aria-hidden="true"></span>
+          </summary>
+          <div class="topic-strip__body">
+        <p>ניתן לבצע הוספת עובד בודד בכמה אפשרויות:</p>
+        <p style="font-weight: bold;">אפשרות א:</p>
+        <p>כניסה לפרטי המעסיק, לחיצה על כפתור ואז בתחתית כרטיס המעסיק נוכל לבחור בכפתור "הוסף עובד חדש למעסיק זה".</p>
+        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-05.png" alt="אפשרות א"><figcaption>הוספת עובד מתוך כרטיס המעסיק</figcaption></figure>
+        <p style="font-weight: bold;margin-top: 1.5rem;">אפשרות ב:</p>
+        <p>דרך תפריט עובדים, בחלק העליון נלחץ על כפתור.</p>
+        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-09.png" alt="אפשרות ב"><figcaption>הוספת עובד דרך תפריט עובדים</figcaption></figure>
+        <p style="font-weight: bold;margin-top: 1.5rem;">אפשרות ג:</p>
+        <p>מיועדת לטעינה במסה של עובדים. נבחר בתפריט "אוטומציות". במסך שיפתח נבחר ב:</p>
+        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-10.png" alt="אפשרות ב"><figcaption>הוספת עובד דרך תפריט עובדים</figcaption></figure>
+        <p>יפתח מסך שבו ניתן להוריד מבנה קובץ excel לצורך טעינת העובדים. לאחר הורדה ומילוי הקובץ ניתן לטעון אותו למערכת.</p>
+        
+        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-11.png" alt="אוטומציות"><figcaption>טעינת עובדים באוטומציות</figcaption></figure>
+        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-12.png" alt="מבנה קובץ אקסל"><figcaption>הורדת מבנה קובץ Excel</figcaption></figure>
+        <p style="font-weight: bold;margin-top: 1.5rem;">מסך הוספת עובד בודד:</p>
+        <p>נדרש למלא את כל שדות החובה בפרטי העובד ולבצע שמור. לאחר שנבצע שמור נוכל לנהל את הפוליסה של העובד.</p>
+        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-13.png" alt="מסך הוספת עובד"><figcaption>מסך הוספת עובד בודד</figcaption></figure>
+        <p>במסך ניהול הפוליסה נמלא את פרטי הפוליסה של העובד. אם אין עדיין פוליסה ואין עדיין הצהרת בריאות אז נבצע תחילה תהליך בכרטיסיית ניהול הצהרת בריאות.</p>
+        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-14.png" alt="ניהול הצהרת בריאות"><figcaption>כרטיסיית ניהול הצהרת בריאות</figcaption></figure>
+        <p>במסך זה ניצור קישור הצהרת בריאות לעובד על ידי לחיצה על כפתור "צור קישור לחתימה". יפתח החלון הבא:</p>
+        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-15.png" alt="יצירת קישור"><figcaption>יצירת קישור לחתימה</figcaption></figure>
+        <p>בחלון זה נפתחה שפת ברירת מחדל בהתאם לפרטי העובד או פרטי המעסיק. ניתן באמצעות תיבת הבחירה לבחור בשפה אחרת. קיים מגוון רחב של שפות להצהרת הבריאות. לאחר שנלחץ על "צור קישור" יפתח לנו החלון הבא:</p>
+        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-16.png" alt="בחירת שפה"><figcaption>שליחת קישור לעובד</figcaption></figure>
+        <p>במסך יצירת הקישור נקבל חיווי שהופק קישור.</p>
+        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-17.png" alt="חיווי קישור"><figcaption>חיווי על הפקת קישור</figcaption></figure>
+        <p>ניתן לשלוח את הקישור ב-WhatsApp או להעתיק אותו ולשלוח אותו בדרך אחרת. לאחר ששלחנו את הקישור לעובד, ברגע שהוא יפתח אותו הוא יקבל מסך שבו יצטרך להקליד קוד שהינו 4 ספרות אחרונות במספר הדרכון. לאחר אישור תפתח הצהרת הבריאות בשפה שנבחרה.</p>
+        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-18.png" alt="שליחת קישור"><figcaption> הצהרת בריאות של העובד בשפה שנבחרה</figcaption></figure>
+        <p>בהצהרת הבריאות שבדוגמה נבחרה השפה הסינית. כל השדות מסומנים מראש.</p>
+        <p>בתחתית הצהרת הבריאות נדרש לחתום על גבי המסך ולבצע שליחה של הצהרת הבריאות. ניתן להחליף את שפת הצהרת הבריאות לעברית וזאת לטובת הנציג של העובד במידה ויש לעובד שאלות. החלפת השפה תתבצע בכפתור הימני העליון שמסומן כגלובוס.</p>
+        <p style="margin-top:1.5rem;">לאחר שהעובד חתם על הצהרת הבריאות ושלח אותה ,יתקבל סטטוס שנתקבלה הצהרת הבריאות.</p>
+        <p>נדרש לבדוק את הצהרת הבריאות ולקבוע את הסטטוס התפעולי שלה.</p>
+        <p style="margin-top:1.5rem;">לאחר שנתקבלה הצהרת הבריאות ונמצאה כתקינה, יש להפיק את הפוליסה בחברת הביטוח, לקבל מספר פוליסה ומספר קופת חולים.</p>
+        <p>נעדכן במערכת את מספר הפוליסה ומספר קופת חולים וכעת ניתן להפיק לעובד כרטיס קופת חולים ואישור ביטוח.</p>
+        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-19.png" alt="הצהרת בריאות בשפה זרה">
+        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-20.png" alt="הפקת כרטיס קופת חולים"><figcaption>הפקת כרטיס קופת חולים</figcaption></figure>
+        <figure class="shot shot--original" style="margin-top: 2rem;"><img loading="lazy" decoding="async" src="image-21.png" alt="הפקת אישור ביטוח "><figcaption>הפקת אישור ביטוח</figcaption></figure>
+     
+      </div>
+        </details>
+      </section>
+
+      <section class="card section topic-section" id="portal">
+        <details class="topic-details">
+          <summary class="topic-strip">
+            <h2 class="topic-strip__title">פורטל מעסיקים</h2>
+            <span class="topic-strip__chevron" aria-hidden="true"></span>
+          </summary>
+          <div class="topic-strip__body">
+        <p>בפורטל מעסיקים, בדף הכניסה קיים לוח הבקרה בדומה ללוח הבקרה בכניסת סוכן. בשונה מלוח הבקרה לסוכן, כל שינוי שהמעסיק מעוניין לבצע מתבטא בהגשת בקשה לסוכן באמצעות הפורטל.</p>
+        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-22.png" alt="פורטל מעסיקים"></figure>
+        <p style="font-weight:bold;margin-top: 1.5rem;">כרטיס המעסיק</p>
+        <p>בכרטיס המעסיק ניתן לראות את פרטי המעסיק, פרטי הפוליסה של המעסיק והסטטוס שלה וכן את ארכיון המסמכים. פעולות שיכול לבצע המעסיק הן רק בכרטיסיית ארכיון מסמכים – הוספת מסמך, מחיקת מסמך, הורדת מסמך. כל יתר השינויים ניתנים לביצוע על ידי הסוכן באמצעות בקשה דיגיטלית דרך המערכת.</p>
+        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-23.png" alt="פורטל מעסיקים"><figcaption>כרטיס מעסיק בפורטל מעסיקים</figcaption></figure>
+        <p style="margin-top: 1.5rem;">בלחיצה על בקשת שינוי יפתח חלון הגשת הבקשה:</p>
+        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-24.png" alt="בקשת שינוי"><figcaption>פתיחת בקשת שינוי</figcaption></figure>
+        <p style="margin-bottom:2.5rem;">במסך זה ניתן להגיש בקשות שינוי בנושאים שונים, בקשה להוספת עובדים, בקשה לעדכון פרטים וכל בקשה כללית אחרת. בתהליך הוספת עובד יכול המעסיק למלא את כל פרטי העובד, לבצע את הליך הצהרת הבריאות הכולל משלוח הצהרת בריאות דיגיטלית לעובד וכן לתייק מסמכים בארכיון המסמך. פעילות זו הינה יעילה, ללא ניירות, מקצרת את זמן הפקת הפוליסה לעובד וחוסכת עבודה מהסוכן.</p>
+        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-25.png" alt="כרטיס מעסיק"></figure>   
+        <p>בשלב הסיום, בלחיצה על אישור נפתחת בקשה אצל הסוכן בסטטוס ממתין לאישור. בלוח הבקרה של המעסיק מתעדכן מספר כמות הבקשות הממתינות לאישור. הסוכן מקבל מיידית את הבקשה אצלו בפורטל ויכול לטפל בבקשה.</p>
+        <p>הסוכן עובר על הבקשה ובסוף מאשר את הבקשה או דוחה אותה. לאחר אישור או דחייה מתעדכן הסטטוס של הבקשה. במסגרת הוספת עובד, במידה והמעסיק דאג גם להצהרת הבריאות והעובד חתם עליה דיגיטלית, נותר לסוכן להקים את הפוליסה ולעדכן את מספר הפוליסה ומספר קופת חולים.</p>
+        
+
+        <p><strong>פעולות נוספות בפורטל מעסיק:</strong></p>
+        <p>צפייה בפרטי העובדים</p>
+        <p>צפיה בפוליסות של העובדים וסטטוסים</p>
+        <p>הפקת קישורים להצהרת בריאות, הפקת כרטיס קופת חולים והפקת אישורי ביטוח</p>
+        <p style="margin-bottom: 1.1rem;font-weight: bolder;">דוחות למעסיק</p>
+        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-26.png" alt="סטטוס בקשה"><figcaption>סטטוס בקשות בפורטל</figcaption></figure>
+        <p style="margin-top:1.5rem">בכל כרטיסיית משנה ניתן לבחור את השדות שיופיעו בדוח. בגמר הבחירה נפיק את הדוח והוא יצטרף לרשימת הדוחות שהופקו. כל דוח ניתן להורדה כקובץ excel באמצעות לחיצה על הכפתור "ייצוא לאקסל", ניתן לבצע תצוגה מקדימה ואף ניתן למחיקה</p>
+        <p>תצוגת דוח ברשימת הדוחות:</p> 
+        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-27.png" alt="רשימת דוחות"></figure>
+        <p>תצוגת מקדימה של דוח:</p> 
+        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-28.png" alt="רשימת דוחות"></figure>
+      </div>
+        </details>
+      </section>
+
+
+      <section class="card section topic-section" id="agent-reports">
+        <details class="topic-details">
+          <summary class="topic-strip">
+            <h2 class="topic-strip__title">דוחות לסוכן</h2>
+            <span class="topic-strip__chevron" aria-hidden="true"></span>
+          </summary>
+          <div class="topic-strip__body">
+        <p>בתפריט הראשי נלחץ על דוחות. במסך הראשי נראה דוחות קיימים שהופקו על ידי הסוכן.</p>
+        <p>ניתן לצפות בדוחות קיימים וכן ניתן להפיק דוח חדש.</p>
+        <p style="margin:1.5rem 0">תצוגת רשימת הדוחות שהופקו</p>
+        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-29.png" alt="רשימת דוחות"><figcaption>תצוגת דוח קיים</figcaption></figure>
+        <p style="margin:1.5rem 0">האפשרויות של הסוכן בהפקת דוחות הן רבות ומגוונות. בכל אחד מהסוגים ניתן לבחור את השדות להצגה.</p>
+        <p>לייצר דוחות שונים ומגוונים. לצורך ייצור דוח נלחץ בתפריט על דוחות. במסך שיפתח נוכל לראות רשימה של כל הדוחות שהופקו עד כה וכן ניתן לבצע הוספת דוח חדש על ידי לחיצה על הכפתור "דוח חדש". יפתח החלון הבא:</p>
+        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-30.png" alt="תצוגה מקדימה"><figcaption>תצוגה מקדימה של דוח</figcaption></figure>
+
+        <p>בכל כרטיסיית משנה ניתן לבחור את השדות שיופיעו בדוח. בגמר הבחירה נפיק את הדוח והוא יצטרף לרשימת הדוחות שהופקו. כל דוח ניתן להורדה כקובץ excel באמצעות לחיצה על הכפתור "ייצוא לאקסל", ניתן לבצע תצוגה מקדימה ואף ניתן למחיקה.</p>
+        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-28.png" alt="שדות בדוח"><figcaption>בחירת שדות לדוח</figcaption></figure>
+          </div>
+        </details>
+      </section>
+    </main>
+
+    <footer class="container">
+      מדריך מערכת נויה | כל הזכויות שמורות
+    </footer>
+    <script>
+      (function () {
+        var tabs = Array.prototype.slice.call(document.querySelectorAll(".topic-tab"));
+        var detailsList = Array.prototype.slice.call(document.querySelectorAll(".topic-section .topic-details"));
+        var hero = document.querySelector(".hero");
+        var main = document.querySelector("main");
+        if (!tabs.length || !detailsList.length) return;
+
+        function updateStickyOffset() {
+          var stickyOffset = hero ? Math.ceil(hero.getBoundingClientRect().height) : 0;
+          document.documentElement.style.setProperty("--sticky-offset", stickyOffset + "px");
+        }
+
+        function scrollToMainStart() {
+          if (!main) return;
+          var top = main.getBoundingClientRect().top + window.pageYOffset;
+          var stickyOffset = hero ? hero.getBoundingClientRect().height : 0;
+          var target = Math.max(0, top - stickyOffset - 8);
+          window.scrollTo({ top: target, behavior: "smooth" });
+        }
+
+        function setActiveTopic(topicId, updateHash, shouldScroll) {
+          var hasMatch = false;
+          var activeSection = null;
+
+          detailsList.forEach(function (detailsEl) {
+            var parent = detailsEl.closest(".topic-section");
+            var isTarget = parent && parent.id === topicId;
+            detailsEl.open = isTarget;
+            if (isTarget) {
+              hasMatch = true;
+              activeSection = parent;
+            }
+          });
+
+          tabs.forEach(function (tab) {
+            var active = tab.getAttribute("data-target") === topicId && hasMatch;
+            tab.classList.toggle("is-active", active);
+            tab.setAttribute("aria-pressed", active ? "true" : "false");
+          });
+
+          if (hasMatch && updateHash) {
+            history.replaceState(null, "", "#" + topicId);
+          }
+
+          if (hasMatch && shouldScroll && activeSection) {
+            scrollToMainStart();
+          }
+
+          return hasMatch;
+        }
+
+        function getTopicFromHash() {
+          return (location.hash || "").replace(/^#/, "");
+        }
+
+        tabs.forEach(function (tab) {
+          tab.addEventListener("click", function () {
+            var targetId = tab.getAttribute("data-target");
+            setActiveTopic(targetId, true, true);
+          });
+        });
+
+        window.addEventListener("hashchange", function () {
+          var hashTopic = getTopicFromHash();
+          if (!setActiveTopic(hashTopic, false, false)) {
+            setActiveTopic("dashboard", false, false);
+          }
+        });
+
+        updateStickyOffset();
+        window.addEventListener("resize", updateStickyOffset);
+
+        var initialTopic = getTopicFromHash() || "dashboard";
+        if (!setActiveTopic(initialTopic, false, false)) {
+          setActiveTopic("dashboard", false, false);
+        }
+      })();
+    </script>
+  </body>
+</html>
