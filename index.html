@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>מדריך מערכת נויה</title>
+    <meta name="description" content="נויה — מערכת ניהול מתקדמת לסוכני ביטוח ופנסיה: לוח בקרה, פורטל מעסיקים, הצהרות בריאות דיגיטליות בשפות שונות, דוחות ואוטומציות. המדריך המלא.">
+    <title>נויה | מדריך המערכת — ניהול חכם של מעסיקים, עובדים ופוליסות</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
@@ -11,13 +12,23 @@
       <div class="container hero-shell">
         <div class="hero-top">
           <div class="brand-lockup">
+            <img
+              class="brand-logo"
+              src="noyaLogo.jpg"
+              alt="לוגו מערכת נויה"
+              loading="lazy"
+              decoding="async"
+              onerror="if(this.dataset.fallback){this.style.display='none';}else{this.dataset.fallback='1';this.src='logo.png';}"
+            >
             <div class="brand-text">
-              <h1>מדריך מערכת נויה</h1>
+              <h1>נויה — המערכת שמרכזת את ניהול המעסיקים, העובדים והפוליסות</h1>
+              <p class="hero-tagline">ממשק אחד ללוח בקרה, פורטל מעסיקים, הצהרות בריאות דיגיטליות ודוחות מותאמים. פחות ניירת ומעברי מסכים — יותר שליטה, מהירות ושקיפות מול המעסיק והעובד.</p>
             </div>
           </div>
         </div>
         <div class="topic-tabs" role="tablist" aria-label="נושאים מרכזיים">
-          <button class="topic-tab is-active" type="button" data-target="dashboard" aria-pressed="true">לוח בקרה</button>
+          <button class="topic-tab is-active" type="button" data-target="overview" aria-pressed="true">הכירו את נויה</button>
+          <button class="topic-tab" type="button" data-target="dashboard" aria-pressed="false">לוח בקרה</button>
           <button class="topic-tab" type="button" data-target="new-employer" aria-pressed="false">הוספת מעסיק</button>
           <button class="topic-tab" type="button" data-target="new-employee" aria-pressed="false">הוספת עובד</button>
           <button class="topic-tab" type="button" data-target="portal" aria-pressed="false">פורטל מעסיקים</button>
@@ -26,6 +37,35 @@
       </div>
     </header>
     <main class="container">
+      <section class="card section topic-section" id="overview">
+        <details class="topic-details">
+          <summary class="topic-strip">
+            <h2 class="topic-strip__title">הכירו את מערכת נויה: המהפכה הדיגיטלית בניהול ביטוח עובדים זרים</h2>
+            <span class="topic-strip__chevron" aria-hidden="true"></span>
+          </summary>
+          <div class="topic-strip__body">
+            <p class="topic-value">ניהול ביטוח בריאות לעובדים זרים מעולם לא היה פשוט, מהיר ושקוף יותר.</p>
+            <p>בעולם שבו זמן שווה כסף ויעילות היא שם המשחק, מערכת נויה מציעה פלטפורמה אחודה ומתקדמת (Paperless), שמלווה את כל מחזור החיים של העובד הזר בהיבט הביטוחי — מקליטתו ועד לניהול השוטף של פוליסת הבריאות שלו.</p>
+            <p style="font-weight:700; margin-top:1.2rem;">למה לעבור לניהול ב״נויה״?</p>
+            <p><strong>1) הכל בכף היד — אפליקציה ייעודית ו־Mobile First</strong><br>המערכת זמינה בכל רגע ובכל מקום. עם אפליקציה ייעודית ב־App Store וב־Google Play, השליטה בנתונים נמצאת אצלכם בכיס.</p>
+            <p><strong>2) לוח בקרה ניהולי חכם</strong><br>מרכז בקרה מתקדם המציג תמונת מצב מצרפית של כלל העובדים. מבט חטוף לנתונים קריטיים וביצוע פעולות תפעוליות ישירות מתוך הממשק — בלי מעבר בין מסכים מורכבים.</p>
+            <p><strong>3) שקיפות מלאה: פורטל סוכן ופורטל מעסיק</strong><br>מערכת נויה מחברת בין כל הגורמים הרלוונטיים לשרשרת העבודה:</p>
+            <ul>
+              <li><strong>פורטל מעסיק:</strong> גישה עצמאית למידע על העובדים, סטטוסים של פוליסות (פעיל/פג תוקף) והורדת מסמכים באופן עצמאי.</li>
+              <li><strong>פורטל סוכן:</strong> כלי עבודה עוצמתי לניהול תורי עבודה, מעקב אחר חתימות וניהול תיקי לקוחות.</li>
+              <li><strong>תקשורת ישירה:</strong> ערוץ עבודה מהיר ויעיל בין הסוכן למעסיק לקיצור תהליכים ושיפור השירות.</li>
+            </ul>
+            <p><strong>4) חוויית משתמש דיגיטלית מקצה לקצה</strong></p>
+            <ul>
+              <li><strong>הצהרות בריאות דיגיטליות:</strong> בלי ניירת פיזית. שליחה ב־WhatsApp או במייל, חתימה דיגיטלית בנייד והזרמה אוטומטית של הנתונים למערכת.</li>
+              <li><strong>תמיכה רב־לשונית:</strong> הצהרות מותאמות לנייד במגוון שפות (אנגלית, סינית, רוסית, תאילנדית ועוד), עם אפשרות תרגום לעברית בלחיצת כפתור לנוחות העובד והנציג.</li>
+              <li><strong>מערכת ידידותית:</strong> ממשק נקי, אינטואיטיבי וקל לתפעול שאינו דורש הכשרה ממושכת.</li>
+            </ul>
+            <p><strong>5) ניתוח נתונים ודוחות</strong><br>שכבת דוחות עשירה ומגוונת, מותאמת אישית למעסיק ולסוכן, עם מעקב צמוד אחר הוצאות, תפוגות ביטוח וסטטיסטיקות ניהוליות.</p>
+          </div>
+        </details>
+      </section>
+
       <section class="card section topic-section" id="dashboard">
         <details class="topic-details">
           <summary class="topic-strip">
@@ -33,10 +73,11 @@
             <span class="topic-strip__chevron" aria-hidden="true"></span>
           </summary>
           <div class="topic-strip__body">
-            <p>מופיע כמסך הכניסה למערכת. זהו לוח בקרה מתקדם המציג תמונת מצב מצרפית בצורה כמותית. לוח הבקרה מאפשר לראות נתונים קריטיים במבט חטוף ולבצע פעולות תפעוליות ישירות מתוך הממשק, ללא צורך במעבר בין מסכים מורכבים.</p>
-            <p>כל כרטיס שנבחר בלוח יפתח דוח מתחת ללוח הבקרה עם פירוט הנתונים שמוצגים בכרטיס. דרך פירוט הנתונים ניתן לראות, לערוך ולטפל בנושאים תפעוליים שונים כמו השלמת פרטים לחסרי פרטים, חידוש פוליסות, טיפול בהצהרות בריאות (יוסבר בהמשך) ועוד.</p>
+            <p class="topic-value">תמונת מצב עסקית בזמן אמת — לפעולות, לא רק לנתונים.</p>
+            <p>לוח הבקרה הוא מסך הכניסה שלכם למערכת: תצוגה מסכמת וברורה של מה שדורש טיפול, מה מתקדם ואיפה יש הזדמנות לשפר שירות. במקום לרדוף אחרי מספרים מפוזרים, אתם רואים את התמונה המלאה — ומתחילים לעבוד.</p>
+            <p>כל כרטיס בלוח מוביל לדוח מפורט מתחתיו: משם אפשר לעמוק לתוך הפרטים, לערוך ולבצע פעולות תפעוליות — השלמת פרטים לחסרים, חידוש פוליסות, טיפול בהצהרות בריאות (מפורט בהמשך המדריך) ועוד — בלי לזלוג בין מסכים אינסופיים.</p>
             <div class="gallery">
-              <figure class="shot"><img loading="lazy" decoding="async" src="image-01.png" alt="לוח בקרה"><figcaption>לוח בקרה ניהולי</figcaption></figure>
+              <figure class="shot"><img loading="lazy" decoding="async" src="image-01.png" alt="לוח בקרה"><figcaption>לוח בקרה ניהולי — נקודת פתיחה אחת לכל מה שחשוב</figcaption></figure>
             </div>
           </div>
         </details>
@@ -49,18 +90,17 @@
             <span class="topic-strip__chevron" aria-hidden="true"></span>
           </summary>
           <div class="topic-strip__body">
-        <p>בתפריט מעסיקים נלחץ על הוספת מעסיק.</p>
-        <p>יפתח החלון:</p>
-        <figure class="shot"><img loading="lazy" decoding="async" src="image-02.png" alt="דוח מתחת ללוח"><figcaption style="color:rgb(6, 6, 85); font-weight: bold;">חשוב למלא את כל השדות החובה בפרטי המעסיק</figcaption></figure>
-        <p>לאחר מילוי פרטי המעסיק נדרש ללחוץ על כפתור "שמור" כדי לנהל את הפוליסה תחת כרטיסיה "ניהול פוליסה למעסיק".</p>
-        <p style="margin-top: 1.5rem;">לאחר שמירת המעסיק יפתח חלון להוספת פוליסה למעסיק.
-        נדרש למלא את כל שדות החובה. ביחס לארץ המוצא וקופת חולים – אלה יהיו נתוני ברירת המחדל של כל  עובד וגם נתוני השפה המתאימה להצהרת הבריאות.</p>
-        <figure class="shot"><img loading="lazy" decoding="async" src="image-03.png" alt="מסך המשך"><figcaption style="color:rgb(6, 6, 85); font-weight: bold;">חשוב למלא שדות חיוניים: חברת הביטוח, מספר פוליסה, קופת חולים, ענף ועוד</figcaption></figure>
-        <p style="margin-top: 1.5rem;">ניתן להוסיף עובדים חדשים למעסיק דרך כרטיס המעסיק באמצעות כפתור "הוסף עובד חדש למעסיק זה".</p>
-        <figure class="shot5" ><img loading="lazy" decoding="async" src="image-05.png" alt="איזור הוספת עובד">
-        </p>נבחר בתפריט מעסיקים ונוודא כי המעסיק הצטרף לרשימת המעסיקים הקיימת.</p>
-        <figure class="shot"><img loading="lazy" decoding="async" src="image-06.png" alt="פרטי מעסיק"><figcaption>מילוי פרטי מעסיק</figcaption></figure>
-        </div>
+            <p class="topic-value">מעסיק חדש בקצב עבודה מקצועי — עם ברירות מחדל שחוסכות זמן בהמשך הדרך.</p>
+            <p>בתפריט <strong>מעסיקים</strong> בוחרים <strong>הוספת מעסיק</strong> ונפתח טופס מסודר. מילוי מדויק של שדות החובה כבר בשלב הזה מונע תקלות ומקצר את הטיפול בפוליסה ובעובדים בהמשך.</p>
+            <figure class="shot"><img loading="lazy" decoding="async" src="image-02.png" alt="טופס הוספת מעסיק"><figcaption style="color:rgb(6, 6, 85); font-weight: bold;">טיפ מקצועי: השלימו את כל שדות החובה בפרטי המעסיק — זה הבסיס לכל הפעילות שתבוא אחר כך.</figcaption></figure>
+            <p>לאחר מילוי הפרטים לוחצים <strong>שמור</strong> ועוברים לניהול הפוליסה תחת הכרטיסייה <strong>ניהול פוליסה למעסיק</strong>.</p>
+            <p style="margin-top: 1.5rem;">מיד לאחר שמירת המעסיק נפתח חלון להוספת הפוליסה. כאן חשוב לדייק: <strong>ארץ מוצא</strong> ו<strong>קופת חולים</strong> יהפכו לברירת המחדל לכל העובדים תחת המעסיק, וגם ישפיעו על שפת ברירת המחדל להצהרת הבריאות — בחירה נכונה כאן חוסכת עדכונים חוזרים.</p>
+            <figure class="shot"><img loading="lazy" decoding="async" src="image-03.png" alt="ניהול פוליסה למעסיק"><figcaption style="color:rgb(6, 6, 85); font-weight: bold;">שדות מפתח: חברת הביטוח, מספר פוליסה, קופת חולים, ענף ושאר הפרטים הנדרשים — כדי שהמערכת תעבוד בשבילכם, לא נגדכם.</figcaption></figure>
+            <p style="margin-top: 1.5rem;">רוצים להרחיב את כוח האדם? אפשר להוסיף עובדים חדשים ישירות מכרטיס המעסיק בלחיצה על <strong>הוסף עובד חדש למעסיק זה</strong> — זרימה רציפה ממעסיק לעובד.</p>
+            <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-05.png" alt="אזור הוספת עובד מכרטיס מעסיק"><figcaption>הוספת עובד ישירות מתוך כרטיס המעסיק</figcaption></figure>
+            <p>לבסוף, בתפריט <strong>מעסיקים</strong> וודאו שהמעסיק מופיע ברשימה — ואתם מוכנים לשלב הבא.</p>
+            <figure class="shot"><img loading="lazy" decoding="async" src="image-06.png" alt="פרטי מעסיק ברשימה"><figcaption>אימות: המעסיק ברשימת המעסיקים</figcaption></figure>
+          </div>
         </details>
       </section>
 
@@ -71,44 +111,41 @@
             <span class="topic-strip__chevron" aria-hidden="true"></span>
           </summary>
           <div class="topic-strip__body">
-        <p>ניתן לבצע הוספת עובד בודד בכמה אפשרויות:</p>
-        <p style="font-weight: bold;">אפשרות א:</p>
-        <p>כניסה לפרטי המעסיק, לחיצה על כפתור ואז בתחתית כרטיס המעסיק נוכל לבחור בכפתור "הוסף עובד חדש למעסיק זה".</p>
-        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-05.png" alt="אפשרות א"><figcaption>הוספת עובד מתוך כרטיס המעסיק</figcaption></figure>
-        <p style="font-weight: bold;margin-top: 1.5rem;">אפשרות ב:</p>
-        <p>דרך תפריט עובדים, בחלק העליון נלחץ על כפתור.</p>
-        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-09.png" alt="אפשרות ב"><figcaption>הוספת עובד דרך תפריט עובדים</figcaption></figure>
-        <p style="font-weight: bold;margin-top: 1.5rem;">אפשרות ג:</p>
-        <p>מיועדת לטעינה במסה של עובדים. נבחר בתפריט "אוטומציות". במסך שיפתח נבחר ב:</p>
-        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-10.png" alt="אפשרות ב"><figcaption>הוספת עובד דרך תפריט עובדים</figcaption></figure>
-        <p>יפתח מסך שבו ניתן להוריד מבנה קובץ excel לצורך טעינת העובדים. לאחר הורדה ומילוי הקובץ ניתן לטעון אותו למערכת.</p>
-        
-        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-11.png" alt="אוטומציות"><figcaption>טעינת עובדים באוטומציות</figcaption></figure>
-        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-12.png" alt="מבנה קובץ אקסל"><figcaption>הורדת מבנה קובץ Excel</figcaption></figure>
-        <p style="font-weight: bold;margin-top: 1.5rem;">מסך הוספת עובד בודד:</p>
-        <p>נדרש למלא את כל שדות החובה בפרטי העובד ולבצע שמור. לאחר שנבצע שמור נוכל לנהל את הפוליסה של העובד.</p>
-        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-13.png" alt="מסך הוספת עובד"><figcaption>מסך הוספת עובד בודד</figcaption></figure>
-        <p>במסך ניהול הפוליסה נמלא את פרטי הפוליסה של העובד. אם אין עדיין פוליסה ואין עדיין הצהרת בריאות אז נבצע תחילה תהליך בכרטיסיית ניהול הצהרת בריאות.</p>
-        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-14.png" alt="ניהול הצהרת בריאות"><figcaption>כרטיסיית ניהול הצהרת בריאות</figcaption></figure>
-        <p>במסך זה ניצור קישור הצהרת בריאות לעובד על ידי לחיצה על כפתור "צור קישור לחתימה". יפתח החלון הבא:</p>
-        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-15.png" alt="יצירת קישור"><figcaption>יצירת קישור לחתימה</figcaption></figure>
-        <p>בחלון זה נפתחה שפת ברירת מחדל בהתאם לפרטי העובד או פרטי המעסיק. ניתן באמצעות תיבת הבחירה לבחור בשפה אחרת. קיים מגוון רחב של שפות להצהרת הבריאות. לאחר שנלחץ על "צור קישור" יפתח לנו החלון הבא:</p>
-        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-16.png" alt="בחירת שפה"><figcaption>שליחת קישור לעובד</figcaption></figure>
-        <p>במסך יצירת הקישור נקבל חיווי שהופק קישור.</p>
-        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-17.png" alt="חיווי קישור"><figcaption>חיווי על הפקת קישור</figcaption></figure>
-        <p>ניתן לשלוח את הקישור ב-WhatsApp או להעתיק אותו ולשלוח אותו בדרך אחרת. לאחר ששלחנו את הקישור לעובד, ברגע שהוא יפתח אותו הוא יקבל מסך שבו יצטרך להקליד קוד שהינו 4 ספרות אחרונות במספר הדרכון. לאחר אישור תפתח הצהרת הבריאות בשפה שנבחרה.</p>
-        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-18.png" alt="שליחת קישור"><figcaption> הצהרת בריאות של העובד בשפה שנבחרה</figcaption></figure>
-        <p>בהצהרת הבריאות שבדוגמה נבחרה השפה הסינית. כל השדות מסומנים מראש.</p>
-        <p>בתחתית הצהרת הבריאות נדרש לחתום על גבי המסך ולבצע שליחה של הצהרת הבריאות. ניתן להחליף את שפת הצהרת הבריאות לעברית וזאת לטובת הנציג של העובד במידה ויש לעובד שאלות. החלפת השפה תתבצע בכפתור הימני העליון שמסומן כגלובוס.</p>
-        <p style="margin-top:1.5rem;">לאחר שהעובד חתם על הצהרת הבריאות ושלח אותה ,יתקבל סטטוס שנתקבלה הצהרת הבריאות.</p>
-        <p>נדרש לבדוק את הצהרת הבריאות ולקבוע את הסטטוס התפעולי שלה.</p>
-        <p style="margin-top:1.5rem;">לאחר שנתקבלה הצהרת הבריאות ונמצאה כתקינה, יש להפיק את הפוליסה בחברת הביטוח, לקבל מספר פוליסה ומספר קופת חולים.</p>
-        <p>נעדכן במערכת את מספר הפוליסה ומספר קופת חולים וכעת ניתן להפיק לעובד כרטיס קופת חולים ואישור ביטוח.</p>
-        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-19.png" alt="הצהרת בריאות בשפה זרה">
-        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-20.png" alt="הפקת כרטיס קופת חולים"><figcaption>הפקת כרטיס קופת חולים</figcaption></figure>
-        <figure class="shot shot--original" style="margin-top: 2rem;"><img loading="lazy" decoding="async" src="image-21.png" alt="הפקת אישור ביטוח "><figcaption>הפקת אישור ביטוח</figcaption></figure>
-     
-      </div>
+            <p class="topic-value">מעובד בודד ועד טעינה המונית — והמשך עם הצהרת בריאות דיגיטלית בשפה הנכונה.</p>
+            <p>נויה נותנת לכם גמישות: עובד אחד דרך הממשק, או קובץ אקסל לארגונים בצמיחה. בכל המסלולים המטרה זהה — רישום מהיר, מעקב ברור ופחות חיכוך מול העובד והמעסיק.</p>
+            <p style="font-weight: bold;">אפשרות א׳ — מתוך כרטיס המעסיק</p>
+            <p>נכנסים לפרטי המעסיק ולוחצים על <strong>הוסף עובד חדש למעסיק זה</strong> בתחתית הכרטיס.</p>
+            <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-05.png" alt="הוספת עובד מתוך כרטיס מעסיק"><figcaption>הוספת עובד מתוך כרטיס המעסיק</figcaption></figure>
+            <p style="font-weight: bold;margin-top: 1.5rem;">אפשרות ב׳ — מתפריט העובדים</p>
+            <p>בתפריט <strong>עובדים</strong>, בחלק העליון של המסך, לוחצים על כפתור ההוספה.</p>
+            <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-09.png" alt="הוספת עובד מתפריט עובדים"><figcaption>הוספת עובד דרך תפריט העובדים</figcaption></figure>
+            <p style="font-weight: bold;margin-top: 1.5rem;">אפשרות ג׳ — טעינה המונית (אוטומציות)</p>
+            <p>מיועדת לארגונים עם הרבה רישומים בבת אחת. בתפריט <strong>אוטומציות</strong> בוחרים את אפשרות טעינת העובדים (כפי שמופיע במסך).</p>
+            <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-10.png" alt="אוטומציות — טעינת עובדים"><figcaption>כניסה לטעינת עובדים דרך אוטומציות</figcaption></figure>
+            <p>במסך שנפתח אפשר להוריד תבנית אקסל, למלא אותה לפי השדות ולהעלות חזרה — חיסכון משמעותי בזמן הקלדה חוזרת.</p>
+            <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-11.png" alt="מסך אוטומציית עובדים"><figcaption>טעינת עובדים באוטומציות</figcaption></figure>
+            <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-12.png" alt="הורדת תבנית אקסל"><figcaption>הורדת מבנה קובץ Excel מוכן למילוי</figcaption></figure>
+            <p style="font-weight: bold;margin-top: 1.5rem;">מסך הוספת עובד בודד</p>
+            <p>ממלאים את כל שדות החובה בפרטי העובד ושומרים. אחרי השמירה עוברים לניהול הפוליסה של אותו עובד.</p>
+            <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-13.png" alt="מסך הוספת עובד"><figcaption>טופס הוספת עובד בודד</figcaption></figure>
+            <p>במסך ניהול הפוליסה מזינים את פרטי הפוליסה. אם עדיין אין פוליסה ואין הצהרת בריאות — מתחילים בכרטיסייה <strong>ניהול הצהרת בריאות</strong>.</p>
+            <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-14.png" alt="ניהול הצהרת בריאות"><figcaption>ניהול הצהרת בריאות — לפני הפקת הפוליסה</figcaption></figure>
+            <p>יוצרים קישור חתימה לעובד בלחיצה על <strong>צור קישור לחתימה</strong>.</p>
+            <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-15.png" alt="יצירת קישור לחתימה"><figcaption>יצירת קישור לחתימה דיגיטלית</figcaption></figure>
+            <p>השפה נבחרת אוטומטית לפי פרטי העובד או המעסיק; אפשר לעבור לשפה אחרת מתוך תפריט הבחירה — מגוון רחב של שפות, כדי שהעובד יבין ויחתום בביטחון. לחיצה על <strong>צור קישור</strong> מפיקה את הקישור לשליחה.</p>
+            <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-16.png" alt="בחירת שפה לקישור"><figcaption>שליחת הקישור לעובד — בשפה שנבחרה</figcaption></figure>
+            <p>לאחר יצירת הקישור מוצג חיווי שהקישור הופק.</p>
+            <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-17.png" alt="חיווי לאחר הפקת קישור"><figcaption>אישור שהקישור מוכן לשליחה</figcaption></figure>
+            <p>שולחים ב־WhatsApp או מעתיקים לכל ערוץ אחר. כשהעובד נכנס לקישור, הוא מזין את <strong>ארבע הספרות האחרונות של מספר הדרכון</strong> לאימות; לאחר מכן נפתחת הצהרת הבריאות בשפה שנבחרה — חוויה מוכרת לעובד, שליטה מלאה לסוכן.</p>
+            <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-18.png" alt="הצהרת בריאות לעובד"><figcaption>הצהרת בריאות של העובד — בשפת הממשק שנבחרה</figcaption></figure>
+            <p>בדוגמה נבחרה שפה זרה; השדות מסומנים מראש לנוחות. בתחתית העובד חותם על המסך ושולח — בלי הדפסות ובלי איבוד מסמכים.</p>
+            <p>ניתן להחליף את שפת ההצהרה לעברית (כפתור הגלובוס בפינה) כדי לסייע לעובד או לנציג בשיחה — שירות פרימיום בלי עלות נוספת.</p>
+            <p style="margin-top:1.5rem;">לאחר שליחה וחתימה, הסטטוס במערכת מתעדכן ל<strong>התקבלה הצהרת בריאות</strong>. יש לבדוק את התוכן ולקבוע את הסטטוס התפעולי.</p>
+            <p>כשההצהרה תקינה — מפיקים פוליסה אצל חברת הביטוח, מקבלים מספר פוליסה ומספר קופת חולים, ומעדכנים במערכת. משם אפשר להפיק לעובד <strong>כרטיס קופת חולים</strong> ו<strong>אישור ביטוח</strong> — סגירת מעגל מקצועית מול העובד והמעסיק.</p>
+            <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-19.png" alt="דוגמה להצהרת בריאות בשפה זרה"><figcaption>דוגמה להצהרה בשפה שנבחרה לעובד</figcaption></figure>
+            <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-20.png" alt="הפקת כרטיס קופת חולים"><figcaption>הפקת כרטיס קופת חולים</figcaption></figure>
+            <figure class="shot shot--original" style="margin-top: 2rem;"><img loading="lazy" decoding="async" src="image-21.png" alt="הפקת אישור ביטוח"><figcaption>הפקת אישור ביטוח</figcaption></figure>
+          </div>
         </details>
       </section>
 
@@ -119,34 +156,30 @@
             <span class="topic-strip__chevron" aria-hidden="true"></span>
           </summary>
           <div class="topic-strip__body">
-        <p>בפורטל מעסיקים, בדף הכניסה קיים לוח הבקרה בדומה ללוח הבקרה בכניסת סוכן. בשונה מלוח הבקרה לסוכן, כל שינוי שהמעסיק מעוניין לבצע מתבטא בהגשת בקשה לסוכן באמצעות הפורטל.</p>
-        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-22.png" alt="פורטל מעסיקים"></figure>
-        <p style="font-weight:bold;margin-top: 1.5rem;">כרטיס המעסיק</p>
-        <p>בכרטיס המעסיק ניתן לראות את פרטי המעסיק, פרטי הפוליסה של המעסיק והסטטוס שלה וכן את ארכיון המסמכים. פעולות שיכול לבצע המעסיק הן רק בכרטיסיית ארכיון מסמכים – הוספת מסמך, מחיקת מסמך, הורדת מסמך. כל יתר השינויים ניתנים לביצוע על ידי הסוכן באמצעות בקשה דיגיטלית דרך המערכת.</p>
-        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-23.png" alt="פורטל מעסיקים"><figcaption>כרטיס מעסיק בפורטל מעסיקים</figcaption></figure>
-        <p style="margin-top: 1.5rem;">בלחיצה על בקשת שינוי יפתח חלון הגשת הבקשה:</p>
-        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-24.png" alt="בקשת שינוי"><figcaption>פתיחת בקשת שינוי</figcaption></figure>
-        <p style="margin-bottom:2.5rem;">במסך זה ניתן להגיש בקשות שינוי בנושאים שונים, בקשה להוספת עובדים, בקשה לעדכון פרטים וכל בקשה כללית אחרת. בתהליך הוספת עובד יכול המעסיק למלא את כל פרטי העובד, לבצע את הליך הצהרת הבריאות הכולל משלוח הצהרת בריאות דיגיטלית לעובד וכן לתייק מסמכים בארכיון המסמך. פעילות זו הינה יעילה, ללא ניירות, מקצרת את זמן הפקת הפוליסה לעובד וחוסכת עבודה מהסוכן.</p>
-        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-25.png" alt="כרטיס מעסיק"></figure>   
-        <p>בשלב הסיום, בלחיצה על אישור נפתחת בקשה אצל הסוכן בסטטוס ממתין לאישור. בלוח הבקרה של המעסיק מתעדכן מספר כמות הבקשות הממתינות לאישור. הסוכן מקבל מיידית את הבקשה אצלו בפורטל ויכול לטפל בבקשה.</p>
-        <p>הסוכן עובר על הבקשה ובסוף מאשר את הבקשה או דוחה אותה. לאחר אישור או דחייה מתעדכן הסטטוס של הבקשה. במסגרת הוספת עובד, במידה והמעסיק דאג גם להצהרת הבריאות והעובד חתם עליה דיגיטלית, נותר לסוכן להקים את הפוליסה ולעדכן את מספר הפוליסה ומספר קופת חולים.</p>
-        
-
-        <p><strong>פעולות נוספות בפורטל מעסיק:</strong></p>
-        <p>צפייה בפרטי העובדים</p>
-        <p>צפיה בפוליסות של העובדים וסטטוסים</p>
-        <p>הפקת קישורים להצהרת בריאות, הפקת כרטיס קופת חולים והפקת אישורי ביטוח</p>
-        <p style="margin-bottom: 1.1rem;font-weight: bolder;">דוחות למעסיק</p>
-        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-26.png" alt="סטטוס בקשה"><figcaption>סטטוס בקשות בפורטל</figcaption></figure>
-        <p style="margin-top:1.5rem">בכל כרטיסיית משנה ניתן לבחור את השדות שיופיעו בדוח. בגמר הבחירה נפיק את הדוח והוא יצטרף לרשימת הדוחות שהופקו. כל דוח ניתן להורדה כקובץ excel באמצעות לחיצה על הכפתור "ייצוא לאקסל", ניתן לבצע תצוגה מקדימה ואף ניתן למחיקה</p>
-        <p>תצוגת דוח ברשימת הדוחות:</p> 
-        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-27.png" alt="רשימת דוחות"></figure>
-        <p>תצוגת מקדימה של דוח:</p> 
-        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-28.png" alt="רשימת דוחות"></figure>
-      </div>
+            <p class="topic-value">מעסיקים מקבלים עצמאות מבוקרת — ואתם שומרים על בקרה ואישור לפני כל שינוי.</p>
+            <p>פורטל המעסיקים נותן למעסיק חוויה דומה ללוח הבקרה שלכם, עם הבדל מהותי: כל שינוי משמעותי עובר דרך <strong>בקשה אליכם</strong>. כך נשמר סטנדרט שירות, צנרת עבודה ברורה ותיעוד מלא — בלי לוותר על נוחות למעסיק.</p>
+            <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-22.png" alt="פורטל מעסיקים — לוח בקרה"></figure>
+            <p style="font-weight:bold;margin-top: 1.5rem;">כרטיס המעסיק בפורטל</p>
+            <p>המעסיק רואה פרטי מעסיק, פרטי פוליסה וסטטוס, ואת ארכיון המסמכים. ישירות מהפורטל הוא יכול לנהל מסמכים בארכיון: הוספה, מחיקה והורדה. כל שאר השינויים — דרך בקשה דיגיטלית שאתם מטפלים בה.</p>
+            <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-23.png" alt="כרטיס מעסיק בפורטל"><figcaption>כרטיס מעסיק בפורטל — שקיפות מול המעסיק</figcaption></figure>
+            <p style="margin-top: 1.5rem;">בלחיצה על <strong>בקשת שינוי</strong> נפתח טופס הגשה מסודר.</p>
+            <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-24.png" alt="הגשת בקשת שינוי"><figcaption>פתיחת בקשת שינוי מהפורטל</figcaption></figure>
+            <p style="margin-bottom:2.5rem;">במסך אחד אפשר להגיש בקשות מגוונות: הוספת עובדים, עדכון פרטים או פנייה כללית. בתהליך הוספת עובד המעסיק יכול למלא פרטים, להפעיל את מסלול הצהרת הבריאות הדיגיטלית ולצרף מסמכים לארכיון — <strong>ללא ניירת</strong>, עם קיצור זמן עד הפוליסה ופחות עומס על נציגי הסוכנות.</p>
+            <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-25.png" alt="המשך טופס בקשה"></figure>
+            <p>בסיום, <strong>אישור</strong> פותח אצלכם בקשה בסטטוס ממתין. בלוח הבקרה של המעסיק מתעדכן מספר הבקשות הפתוחות; אצלכם הבקשה מגיעה מיד לטיפול.</p>
+            <p>אתם בוחרים לאשר או לדחות; הסטטוס מתעדכן אוטומטית. כשמדובר בהוספת עובד והמעסיק השלים הצהרת בריאות חתומה — נשאר לכם להקים את הפוליסה ולעדכן מספר פוליסה וקופת חולים. זרימת עבודה ברורה, מדידה ומקצועית.</p>
+            <p><strong>עוד יכולות בפורטל המעסיק:</strong></p>
+            <p>צפייה בפרטי עובדים, בפוליסות ובסטטוסים; הפקת קישורי הצהרת בריאות, כרטיסי קופת חולים ואישורי ביטוח.</p>
+            <p style="margin-bottom: 1.1rem;font-weight: bolder;">דוחות למעסיק</p>
+            <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-26.png" alt="סטטוס בקשות בפורטל"><figcaption>מעקב אחר בקשות — שקיפות גם מצד המעסיק</figcaption></figure>
+            <p style="margin-top:1.5rem">בכל כרטיסיית משנה בוחרים אילו שדות יופיעו בדוח; לאחר ההפקה הדוח נשמר ברשימה. ניתן לייצא ל־Excel בלחיצה על <strong>ייצוא לאקסל</strong>, לצפות בתצוגה מקדימה או למחוק דוח ישן — שליטה מלאה בנתונים שהמעסיק רואה.</p>
+            <p>תצוגת דוחות ברשימה:</p>
+            <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-27.png" alt="רשימת דוחות"></figure>
+            <p>תצוגה מקדימה לפני הורדה:</p>
+            <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-28.png" alt="תצוגה מקדימה של דוח"></figure>
+          </div>
         </details>
       </section>
-
 
       <section class="card section topic-section" id="agent-reports">
         <details class="topic-details">
@@ -155,23 +188,22 @@
             <span class="topic-strip__chevron" aria-hidden="true"></span>
           </summary>
           <div class="topic-strip__body">
-        <p>בתפריט הראשי נלחץ על דוחות. במסך הראשי נראה דוחות קיימים שהופקו על ידי הסוכן.</p>
-        <p>ניתן לצפות בדוחות קיימים וכן ניתן להפיק דוח חדש.</p>
-        <p style="margin:1.5rem 0">תצוגת רשימת הדוחות שהופקו</p>
-        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-29.png" alt="רשימת דוחות"><figcaption>תצוגת דוח קיים</figcaption></figure>
-        <p style="margin:1.5rem 0">האפשרויות של הסוכן בהפקת דוחות הן רבות ומגוונות. בכל אחד מהסוגים ניתן לבחור את השדות להצגה.</p>
-        <p>לייצר דוחות שונים ומגוונים. לצורך ייצור דוח נלחץ בתפריט על דוחות. במסך שיפתח נוכל לראות רשימה של כל הדוחות שהופקו עד כה וכן ניתן לבצע הוספת דוח חדש על ידי לחיצה על הכפתור "דוח חדש". יפתח החלון הבא:</p>
-        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-30.png" alt="תצוגה מקדימה"><figcaption>תצוגה מקדימה של דוח</figcaption></figure>
-
-        <p>בכל כרטיסיית משנה ניתן לבחור את השדות שיופיעו בדוח. בגמר הבחירה נפיק את הדוח והוא יצטרף לרשימת הדוחות שהופקו. כל דוח ניתן להורדה כקובץ excel באמצעות לחיצה על הכפתור "ייצוא לאקסל", ניתן לבצע תצוגה מקדימה ואף ניתן למחיקה.</p>
-        <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-28.png" alt="שדות בדוח"><figcaption>בחירת שדות לדוח</figcaption></figure>
+            <p class="topic-value">הפקת דוחות מותאמים אישית — כדי להציג נתונים, לא רק לאסוף אותם.</p>
+            <p>בתפריט הראשי נכנסים ל<strong>דוחות</strong>. במסך הראשי מופיעים דוחות שהופקו בעבר, עם אפשרות לצפייה, ייצוא והפקת דוח חדש — כלי עבודה למי שמנהל תיק אמיתי, לא רק רשומות.</p>
+            <p style="margin:1.5rem 0">רשימת דוחות קיימים:</p>
+            <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-29.png" alt="רשימת דוחות לסוכן"><figcaption>דוחות שהופקו — גישה מהירה וחוזרת</figcaption></figure>
+            <p style="margin:1.5rem 0">מגוון סוגי דוחות ושדות לבחירה מאפשר לכם להתאים כל ייצוא לשאלה העסקית: ליווי מעסיק, ביקורת תיקים או ניתוח מגמות.</p>
+            <p>להפקת דוח חדש לוחצים <strong>דוח חדש</strong> ונפתח אשף הבחירה.</p>
+            <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-30.png" alt="הפקת דוח חדש"><figcaption>התחלת הפקת דוח חדש</figcaption></figure>
+            <p>בכל כרטיסיית משנה בוחרים את השדות שייכללו בדוח; בסיום מפיקים — והדוח מתווסף לרשימה. כל דוח ניתן להורדה כ־Excel דרך <strong>ייצוא לאקסל</strong>, לתצוגה מקדימה או למחיקה, בדיוק כמו בפורטל המעסיק — אחידות חווייתית בכל המערכת.</p>
+            <figure class="shot shot--original"><img loading="lazy" decoding="async" src="image-28.png" alt="בחירת שדות לדוח"><figcaption>בחירת שדות — הדוח שמתאים לכם</figcaption></figure>
           </div>
         </details>
       </section>
     </main>
 
     <footer class="container">
-      מדריך מערכת נויה | כל הזכויות שמורות
+      נויה — מערכת לניהול סוכני ביטוח ופנסיה | מדריך זה מסכם את יכולות המערכת לשימוש מקצועי
     </footer>
     <script>
       (function () {
@@ -202,6 +234,9 @@
             var parent = detailsEl.closest(".topic-section");
             var isTarget = parent && parent.id === topicId;
             detailsEl.open = isTarget;
+            if (parent) {
+              parent.classList.toggle("is-active", isTarget);
+            }
             if (isTarget) {
               hasMatch = true;
               activeSection = parent;
@@ -239,16 +274,16 @@
         window.addEventListener("hashchange", function () {
           var hashTopic = getTopicFromHash();
           if (!setActiveTopic(hashTopic, false, false)) {
-            setActiveTopic("dashboard", false, false);
+            setActiveTopic("overview", false, false);
           }
         });
 
         updateStickyOffset();
         window.addEventListener("resize", updateStickyOffset);
 
-        var initialTopic = getTopicFromHash() || "dashboard";
+        var initialTopic = getTopicFromHash() || "overview";
         if (!setActiveTopic(initialTopic, false, false)) {
-          setActiveTopic("dashboard", false, false);
+          setActiveTopic("overview", false, false);
         }
       })();
     </script>
