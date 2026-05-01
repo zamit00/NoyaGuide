@@ -259,12 +259,15 @@ main {
 }
 
 .hero-tagline {
-  margin: 0.35rem 0 0;
+  margin: 0.7rem 0 0.35rem;
+  padding: 0.6rem 0 0.7rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.16);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.16);
   font-size: clamp(0.82rem, 2vw, 0.95rem);
   line-height: 1.45;
   color: rgba(255, 255, 255, 0.9);
   font-weight: 500;
-  max-width: 72ch;
+  max-width: 100%;
 }
 
 .topic-value {
@@ -459,6 +462,23 @@ strong {
 }
 
 @media (max-width: 480px) {
+  .brand-lockup {
+    flex-direction: row;
+    align-items: center;
+    gap: 0.55rem;
+  }
+
+  .brand-text {
+    border-top: 0;
+    border-inline-end: 1px solid rgba(255, 255, 255, 0.14);
+    padding-top: 0;
+    padding-inline-end: 0.45rem;
+  }
+
+  .brand-logo {
+    width: min(40px, 13vw);
+  }
+
   .topic-tabs {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 0.45rem;
